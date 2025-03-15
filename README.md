@@ -9,6 +9,29 @@ La función `getProducts` se ha añadido al mapa de funciones (`functionsMap`) p
 ## **API de NextJS para Consumir la API RESTful**
 Se ha creado un endpoint en NextJS que actúa como intermediario para consumir la API RESTful de productos (`http://localhost:8080/productos/search`). Este endpoint acepta parámetros de consulta (`query parameters`) para filtrar los productos.
 
+## Funcionamiento del Chatbot
+
+A continuación, se muestran capturas de pantalla que ilustran el funcionamiento del chatbot en diferentes situaciones:
+
+### 1. Consulta sobre Monitores Disponibles
+El usuario solicita información sobre los monitores disponibles. El chatbot responde con detalles específicos de un monitor en stock.
+
+![Consulta sobre Monitores](imgs/mensaje1.jpg)
+
+---
+
+### 2. Listado de Marcas de Teclados
+El usuario pregunta por las marcas de teclados disponibles. El chatbot proporciona una lista completa de las marcas.
+
+![Listado de Marcas de Teclados](imgs/mensaje2.jpg)
+
+---
+
+### 3. Descripción de un Teclado Específico
+El usuario solicita detalles sobre un teclado de la marca Apple. El chatbot responde con una descripción detallada del producto.
+
+![Descripción de Teclado Apple](imgs/mensaje3.jpg)
+
 ## **Resultado Final**
 Con estos cambios, el chatbot ahora puede:
 1. **Responder preguntas sobre productos**: Por ejemplo, "¿Qué computadoras tienes en rojo?".
